@@ -2,6 +2,7 @@
   "name": "bits-of-code-journey",
   "version": "0.1.0",
   "private": true,
+  "author": "dexter",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
