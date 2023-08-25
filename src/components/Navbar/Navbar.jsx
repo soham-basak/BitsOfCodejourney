@@ -1,5 +1,6 @@
 "use client";
 
+import DarkMode from "../DarkMode/DarkMode";
 import styles from "./navbar.module.css";
 import Link from "next/link";
 
@@ -43,6 +44,7 @@ const Navbar = () => {
         BitsOfCodejourney
       </Link>
       <div className={styles.links}>
+        <DarkMode />
         {links.map((link) => (
           <Link key={link.id} href={link.url}>
             {link.title}
